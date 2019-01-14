@@ -27,12 +27,12 @@ class Ningen
   attr_reader :name
 
   def initialize(name)
-    self.name = name
+    @name = name
   end
 
   # aisatsu というメソッド
   def aisatsu
-    puts "こんにちわ"
+    puts "#{@name} こんにちわ"
   end
 end
 
